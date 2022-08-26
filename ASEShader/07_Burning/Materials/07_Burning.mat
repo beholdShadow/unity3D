@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 07_Burning
   m_Shader: {fileID: 4800000, guid: cabc90e76c733a24ba761ad2e34cce72, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
+  m_ShaderKeywords: _ANIMATE_ON
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -33,7 +33,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
         m_Texture: {fileID: 2800000, guid: e649826446ed7974ea27a3d0986d372a, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 100, y: 100}
         m_Offset: {x: 0, y: 0}
     - _MaskTex1:
         m_Texture: {fileID: 0}
@@ -57,12 +57,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _Burn: 0.901
-    - _EdgePower: 0.483
-    - _HeatWave: 0.00931
+    - _Animate: 1
+    - _Animation: 1
+    - _Burn: 0.433
+    - _EdgePower: 0.291
+    - _HeatWave: 0.0177
     - _Mask: 0.297
-    - _Speed: 0.35
+    - _Speed: 0.2
     - _Speed1: 1.29
+    - _ToggleSwitch0: 0
+    - __dirty: 0
     m_Colors:
+    - _EdgeColor: {r: 2.455983, g: 1.0574371, b: 1.0310494, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
