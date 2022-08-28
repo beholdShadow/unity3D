@@ -89,5 +89,5 @@ Material:
     - _CausticsColour: {r: 1.2072729, g: 1.7411011, b: 1.6202828, a: 0}
     - _Color0: {r: 0, g: 0.32701188, b: 0.4056604, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SeaColor: {r: 0, g: 0.3709991, b: 0.40392154, a: 1}
+    - _SeaColor: {r: 0, g: 0.37099907, b: 0.4039215, a: 1}
   m_BuildTextureStacks: []

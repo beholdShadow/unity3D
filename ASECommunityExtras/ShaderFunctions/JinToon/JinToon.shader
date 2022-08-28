@@ -172,16 +172,16 @@ Shader "ASECE/JinToon"
 }
 /*ASEBEGIN
 Version=18935
-699;73;1220;599;1733.301;507.7785;1.600551;True;False
+841;81;1070;831;1466.009;687.0402;1.600551;True;False
 Node;AmplifyShaderEditor.TexturePropertyNode;4;-972.7717,-212.9151;Float;True;Property;_Ramp;Ramp;1;0;Create;True;0;0;0;False;0;False;4a1a20e176d86f64695ccaa972459e52;4a1a20e176d86f64695ccaa972459e52;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
-Node;AmplifyShaderEditor.RangedFloatNode;5;-966.2971,-18.87551;Float;False;Property;_ToonIntensity;Toon Intensity;2;0;Create;True;0;0;0;False;0;False;0.13;-0.04;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;5;-966.2971,-18.87551;Float;False;Property;_ToonIntensity;Toon Intensity;2;0;Create;True;0;0;0;False;0;False;0.13;5.25;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.WireNode;10;-755.4416,-15.91275;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.WireNode;14;-767.9901,-66.82666;Inherit;False;1;0;SAMPLER2D;;False;1;SAMPLER2D;0
 Node;AmplifyShaderEditor.WireNode;13;-521.59,-60.42663;Inherit;False;1;0;SAMPLER2D;;False;1;SAMPLER2D;0
-Node;AmplifyShaderEditor.RangedFloatNode;7;-959.1738,58.29807;Float;False;Property;_OutlineWidth;Outline Width;3;0;Create;True;0;0;0;False;0;False;0.02;0.08;0;0;0;1;FLOAT;0
-Node;AmplifyShaderEditor.TexturePropertyNode;3;-729.5369,-206.4187;Float;True;Property;_Tex;Tex;0;0;Create;True;0;0;0;False;0;False;84508b93f15f2b64386ec07486afc7a3;84508b93f15f2b64386ec07486afc7a3;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
+Node;AmplifyShaderEditor.RangedFloatNode;7;-959.1738,58.29807;Float;False;Property;_OutlineWidth;Outline Width;3;0;Create;True;0;0;0;False;0;False;0.02;0.06;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.TexturePropertyNode;3;-729.5369,-206.4187;Float;True;Property;_Tex;Tex;0;0;Create;True;0;0;0;False;0;False;None;None;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
 Node;AmplifyShaderEditor.WireNode;11;-520.9572,-12.66633;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.RangedFloatNode;6;-726.2487,6.735914;Float;False;Property;_EmissionIntensity;Emission Intensity;4;0;Create;True;0;0;0;False;0;False;0.5;1.45;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;6;-726.2487,6.735914;Float;False;Property;_EmissionIntensity;Emission Intensity;4;0;Create;True;0;0;0;False;0;False;0.5;0.48;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.ColorNode;42;-699.7083,98.22931;Inherit;False;Property;_OutlineColor;OutlineColor;5;0;Create;True;0;0;0;False;0;False;0,0,0,0;0.254717,0.254717,0.254717,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.FunctionNode;43;-437.1502,-133.9842;Inherit;False;JinToon;-1;;2;66107c916f9290244bf93b5099918375;0;6;24;SAMPLER2D;0;False;25;SAMPLER2D;0;False;26;FLOAT;0;False;34;FLOAT;0;False;30;FLOAT;0;False;27;COLOR;0,0,0,0;False;4;COLOR;33;FLOAT;36;COLOR;0;FLOAT3;23
 Node;AmplifyShaderEditor.StandardSurfaceOutputNode;66;-83.28912,-288.9642;Float;False;True;-1;2;ASEMaterialInspector;0;0;Standard;ASECE/JinToon;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;Back;0;False;-1;0;False;-1;False;0;False;-1;0;False;-1;False;0;Opaque;0.5;True;True;0;False;Opaque;;Geometry;All;18;all;True;True;True;True;0;False;-1;False;0;False;-1;255;False;-1;255;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;False;2;15;10;25;False;0.5;True;0;0;False;-1;0;False;-1;0;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;0;0,0,0,0;VertexOffset;True;False;Cylindrical;False;True;Relative;0;;-1;-1;-1;-1;0;False;0;0;False;-1;-1;0;False;-1;0;0;0;False;0.1;False;-1;0;False;-1;False;16;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT3;0,0,0;False;7;FLOAT3;0,0,0;False;8;FLOAT;0;False;9;FLOAT;0;False;10;FLOAT;0;False;13;FLOAT3;0,0,0;False;11;FLOAT3;0,0,0;False;12;FLOAT3;0,0,0;False;14;FLOAT4;0,0,0,0;False;15;FLOAT3;0,0,0;False;0
@@ -199,4 +199,4 @@ WireConnection;66;0;43;0
 WireConnection;66;2;43;33
 WireConnection;66;11;43;23
 ASEEND*/
-//CHKSM=822E0DD90028D0A76800001E3F24D17EE8F1AC8E
+//CHKSM=16FF9744652127725A2285B2B6BD42294F4D2F06
