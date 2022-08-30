@@ -42,15 +42,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: 85e3723e62d44f758723754190c67911, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4a6fdc662cc6dbb46b3bf184ce07ea5e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BurntTileNormals:
-        m_Texture: {fileID: 2800000, guid: 2fb1b14b4e2147e4a580f44624c73725, type: 3}
+        m_Texture: {fileID: 2800000, guid: 46a88b99c2bcbf241a93b69420842d1c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Masks:
-        m_Texture: {fileID: 2800000, guid: 21b9f4e0af3140a99ef0bc5a43d58a97, type: 3}
+        m_Texture: {fileID: 2800000, guid: df50b5a65f34f1046a137a56209110f9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Metallic:
@@ -58,7 +58,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normals:
-        m_Texture: {fileID: 2800000, guid: abfd39fa1d6a42ba9b322e4301333932, type: 3}
+        m_Texture: {fileID: 2800000, guid: 687472a6b2143a14a9679af792aa1b1c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Occlusion:
@@ -179,7 +179,7 @@ Material:
     m_Colors:
     - EmberColorTint: {r: 0.966, g: 0.10625183, b: 0.004325263, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
-    - _EmberColorTint: {r: 2, g: 0.016112087, b: 0, a: 1}
+    - _EmberColorTint: {r: 2, g: 0.0619207, b: 0, a: 1}
     - _EmberColorTint1551673: {r: 0.6901961, g: 0.2588228, b: 0.06274459, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _MudDirt: {r: 0.58823526, g: 0, b: 0, a: 0}

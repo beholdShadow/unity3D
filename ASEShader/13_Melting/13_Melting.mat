@@ -7,9 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 07_AnimatedFire
-  m_Shader: {fileID: 4800000, guid: 0eab89a6c0dfd524c9f59101199d0107, type: 3}
-  m_ShaderKeywords: _ADD_PRECOMPUTED_VELOCITY
+  m_Name: 13_Melting
+  m_Shader: {fileID: 4800000, guid: 89ad3e94f0a999c42ba3642f411d8041, type: 3}
+  m_ShaderKeywords: _ADD_PRECOMPUTED_VELOCITY _ALPHATEST_ON _ANIMATEDMELT_ON _TOGGLEANIMATEDFX_ON
+    _TOGGLECONTROLTYPE_ON
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -21,32 +22,28 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Albedo:
-        m_Texture: {fileID: 2800000, guid: 4a6fdc662cc6dbb46b3bf184ce07ea5e, type: 3}
+    - <noninit>:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _BurnMask:
-        m_Texture: {fileID: 2800000, guid: 997ca8ce85cd8e74297197d4b3d74d1c, type: 3}
+    - _BaseNormal:
+        m_Texture: {fileID: 2800000, guid: 570561a867b7c23448a0beabdd6faac5, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _BrushedMetalNormal:
+        m_Texture: {fileID: 2800000, guid: bd734c29baceb63499732f24fbaea45f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _FireTexture:
-        m_Texture: {fileID: 2800000, guid: d2a10985d603f384d8bf4e933d533831, type: 3}
+    - _DisplaceNoise:
+        m_Texture: {fileID: 2800000, guid: 4d85556227fd4d5a8f034d10f4261675, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Mask:
-        m_Texture: {fileID: 2800000, guid: 36be8d528a4fa024faa4680d7658642c, type: 3}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: bd734c29baceb63499732f24fbaea45f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Normals:
-        m_Texture: {fileID: 2800000, guid: 687472a6b2143a14a9679af792aa1b1c, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Specular:
-        m_Texture: {fileID: 2800000, guid: 16497ac2e986f6e4c9044ca29770e9e5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _TileableFire:
-        m_Texture: {fileID: 2800000, guid: f7e96904e8667e1439548f0f86389447, type: 3}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 4d85556227fd4d5a8f034d10f4261675, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -54,27 +51,38 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - <noninit>: 0
     - _AddPrecomputedVelocity: 1
+    - _AlbedoSmoothness: 14.61
     - _AlphaCutoff: 0.5
-    - _AlphaCutoffEnable: 0
+    - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
+    - _AnimatedMelt: 1
     - _BlendMode: 0
     - _CullMode: 2
     - _CullModeForward: 2
     - _DoubleSidedEnable: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
-    - _EmissionIntensity: 27.27
-    - _EmissionWeight: 2.01
+    - _EmissionIntensity: 10.27
+    - _EmissionIntensity1: 4.87
+    - _EmissionWeight: 4.73
+    - _EmissionWeight1: 4.9
     - _EnableFogOnTransparent: 1
-    - _FireIntensity: 13.11
-    - _FlowSpeed: 2
-    - _Intensity: 14.7
+    - _Float0: 2
+    - _Float1: 1.92
+    - _Intensity: 8
+    - _Limit: 0.798
+    - _ManualControl: 1.2
+    - _Metallic: 0.98
+    - _NoiseMultiply: 3.35
+    - _NoiseScale: 0.0367
+    - _Oscillation: 2.3723528
     - _ReceivesSSR: 1
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Smoothness: 0
+    - _Smoothness: 0.431
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
@@ -87,18 +95,24 @@ Material:
     - _StencilWriteMaskGBuffer: 14
     - _StencilWriteMaskMV: 40
     - _SurfaceType: 0
+    - _ToggleAnimatedFX: 1
+    - _ToggleControlType: 1
+    - _ToggleSwitch0: 0
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentSortPriority: 0
     - _TransparentZWrite: 1
     - _UseShadowThreshold: 0
     - _ZTestDepthEqualForOpaque: 3
-    - _ZTestGBuffer: 4
+    - _ZTestGBuffer: 3
     - _ZTestTransparent: 4
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
+    - <noninit>: {r: 0, g: 1.7256007e-33, b: 0, a: 1.725589e-33}
+    - _BaseColor: {r: 0.21698111, g: 0.19139372, b: 0.18115875, a: 0}
+    - _Color1: {r: 0.16037738, g: 0.0032750438, b: 0, a: 1}
+    - _Color2: {r: 0.85882354, g: 0.3900077, b: 0, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FlowSpeed: {r: 1, g: 1.11, b: 0, a: 0}
   m_BuildTextureStacks: []
