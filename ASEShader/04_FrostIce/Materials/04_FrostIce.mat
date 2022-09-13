@@ -128,8 +128,8 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _IceGravity: 2.02
-    - _IceIntensity: 1.184
+    - _IceGravity: 2.4
+    - _IceIntensity: 1.63
     - _IceThickness: 1.18
     - _Intensity: 0.863
     - _Metallic: 0
@@ -144,7 +144,7 @@ Material:
     - _Surface: 0
     - _TessMax: 10
     - _TessMin: 6
-    - _TessValue: 1
+    - _TessValue: 6.4
     - _TileMask: 0.341
     - _WorkflowMode: 1
     - _ZWrite: 1

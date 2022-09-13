@@ -156,7 +156,7 @@ Shader "ASEShader/05_Diablo_Base"
 			
 			#pragma multi_compile_instancing
 			#define _ALPHAPREMULTIPLY_ON 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -406,7 +406,7 @@ Shader "ASEShader/05_Diablo_Base"
 			
 			#pragma multi_compile_instancing
 			#define _ALPHAPREMULTIPLY_ON 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -671,7 +671,7 @@ Shader "ASEShader/05_Diablo_Base"
 			
 			#pragma multi_compile_instancing
 			#define _ALPHAPREMULTIPLY_ON 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -894,7 +894,7 @@ Shader "ASEShader/05_Diablo_Base"
 }
 /*ASEBEGIN
 Version=18935
-889;73;1030;675;1103.193;1066.735;1.40151;True;False
+881;81;1030;295;1103.193;800.4481;1.40151;True;False
 Node;AmplifyShaderEditor.SamplerNode;5;-753.6523,-191.6815;Inherit;True;Property;_TextureSample0;Texture Sample 0;0;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.VertexColorNode;7;-390.8127,-410.4444;Inherit;False;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;6;-393.8127,-187.4444;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;FLOAT;0;False;1;COLOR;0
@@ -916,4 +916,4 @@ WireConnection;9;1;5;4
 WireConnection;1;2;8;0
 WireConnection;1;3;9;0
 ASEEND*/
-//CHKSM=30162E5C7220B5C95FAC7AB5F9342F6E9686AA30
+//CHKSM=BD68091DE792651C43C883D4BA13B78A13E27390

@@ -176,7 +176,7 @@ Shader "ASEShader/07_DissolveBurn"
 			#define _EMISSION
 			#define _ALPHATEST_ON 1
 			#define _NORMALMAP 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma multi_compile _ _SCREEN_SPACE_OCCLUSION
@@ -669,7 +669,7 @@ Shader "ASEShader/07_DissolveBurn"
 			#define _EMISSION
 			#define _ALPHATEST_ON 1
 			#define _NORMALMAP 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -966,7 +966,7 @@ Shader "ASEShader/07_DissolveBurn"
 			#define _EMISSION
 			#define _ALPHATEST_ON 1
 			#define _NORMALMAP 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -1228,7 +1228,7 @@ Shader "ASEShader/07_DissolveBurn"
 			#define _EMISSION
 			#define _ALPHATEST_ON 1
 			#define _NORMALMAP 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -1499,7 +1499,7 @@ Shader "ASEShader/07_DissolveBurn"
 			#define _EMISSION
 			#define _ALPHATEST_ON 1
 			#define _NORMALMAP 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -1758,7 +1758,7 @@ Shader "ASEShader/07_DissolveBurn"
 			#define _EMISSION
 			#define _ALPHATEST_ON 1
 			#define _NORMALMAP 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -2030,7 +2030,7 @@ Shader "ASEShader/07_DissolveBurn"
 			#define _EMISSION
 			#define _ALPHATEST_ON 1
 			#define _NORMALMAP 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma multi_compile _ _MAIN_LIGHT_SHADOWS
@@ -2499,7 +2499,7 @@ Shader "ASEShader/07_DissolveBurn"
 }
 /*ASEBEGIN
 Version=18935
-1197;81;711;387;827.7281;-169.3809;1.750765;True;False
+881;81;1030;295;1106.975;-249.9161;1.750765;True;False
 Node;AmplifyShaderEditor.CommentaryNode;128;-940.8873,542.9288;Inherit;False;1471.131;502.1651;Dissolve - Opacity Mask;9;154;73;111;2;71;159;4;173;157;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.SinTimeNode;157;-888.5703,792.9496;Inherit;False;0;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.AbsOpNode;173;-739.1937,789.8271;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
@@ -2514,9 +2514,9 @@ Node;AmplifyShaderEditor.TFHCRemapNode;112;-878.1525,280.8961;Inherit;True;5;0;F
 Node;AmplifyShaderEditor.ClampOpNode;113;-831.3023,100.6522;Inherit;False;3;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.OneMinusNode;130;-671.1382,92.00836;Inherit;True;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SamplerNode;114;-488.8969,225.4413;Inherit;True;Property;_BurnRamp;Burn Ramp;3;0;Create;True;0;0;0;False;0;False;-1;e2216e52e64b498b961c693f564d4d0c;e2216e52e64b498b961c693f564d4d0c;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;0,0;False;1;FLOAT2;1,0;False;2;FLOAT;1;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.ColorNode;155;-177.2264,91.9703;Inherit;False;Property;_Tint;Tint;6;1;[HDR];Create;True;0;0;0;False;0;False;14.75442,6.411608,1.931207,0;1,0.386434,0.06132069,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.CommentaryNode;132;484.9881,-3.141543;Inherit;False;765.1592;493.9802;Created by The Four Headed Cat @fourheadedcat - www.twitter.com/fourheadedcat;2;144;169;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;126;-153.1431,295.4325;Inherit;False;2;2;0;FLOAT;0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
+Node;AmplifyShaderEditor.CommentaryNode;132;484.9881,-3.141543;Inherit;False;765.1592;493.9802;Created by The Four Headed Cat @fourheadedcat - www.twitter.com/fourheadedcat;2;144;169;;1,1,1,1;0;0
+Node;AmplifyShaderEditor.ColorNode;155;-177.2264,91.9703;Inherit;False;Property;_Tint;Tint;6;1;[HDR];Create;True;0;0;0;False;0;False;14.75442,6.411608,1.931207,0;1,0.386434,0.06132069,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;156;146.8479,162.5772;Inherit;True;2;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
 Node;AmplifyShaderEditor.SamplerNode;78;-454.8723,-386.2376;Inherit;True;Property;_Albedo;Albedo;0;0;Create;True;0;0;0;False;0;False;-1;None;85e3723e62d44f758723754190c67911;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;0,0;False;1;FLOAT2;0,0;False;2;FLOAT;1;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SamplerNode;131;-445.2028,-164.4147;Inherit;True;Property;_Normal;Normal;1;0;Create;True;0;0;0;False;0;False;-1;None;abfd39fa1d6a42ba9b322e4301333932;True;0;True;bump;Auto;True;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;0,0;False;1;FLOAT2;0,0;False;2;FLOAT;1;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
@@ -2554,4 +2554,4 @@ WireConnection;164;4;169;0
 WireConnection;164;6;154;0
 WireConnection;164;7;144;0
 ASEEND*/
-//CHKSM=7F37ADC8B5D6971F54448E5F107058419D4A65B2
+//CHKSM=0C50C964A7C86DC1E9003E8883534CEEEF206192

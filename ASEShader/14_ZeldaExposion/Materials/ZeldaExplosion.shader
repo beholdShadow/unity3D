@@ -158,7 +158,7 @@ Shader "ASEShader/14_ZeldaExplosion"
 			
 			#pragma multi_compile_instancing
 			#define _ALPHATEST_ON 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -416,7 +416,7 @@ Shader "ASEShader/14_ZeldaExplosion"
 			
 			#pragma multi_compile_instancing
 			#define _ALPHATEST_ON 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -686,7 +686,7 @@ Shader "ASEShader/14_ZeldaExplosion"
 			
 			#pragma multi_compile_instancing
 			#define _ALPHATEST_ON 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -914,7 +914,7 @@ Shader "ASEShader/14_ZeldaExplosion"
 }
 /*ASEBEGIN
 Version=18935
-871;73;1048;771;2190.037;-258.2494;2.676303;True;False
+881;81;1030;295;2165.95;-895.2095;2.676303;True;False
 Node;AmplifyShaderEditor.RangedFloatNode;20;-2561.295,28.0901;Inherit;False;Property;_JitterSpeed;JitterSpeed;4;0;Create;True;0;0;0;False;0;False;0;0;0;10;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleTimeNode;19;-2228.343,34.86903;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.TextureCoordinatesNode;21;-2012.551,-15.07474;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
@@ -964,4 +964,4 @@ WireConnection;1;2;15;0
 WireConnection;1;3;11;0
 WireConnection;1;4;8;0
 ASEEND*/
-//CHKSM=392C95AAFE03B6E02B5CBA6D8D0D5CE95B27E967
+//CHKSM=DBEA871851CB062A148B8166B1E1DCAFA65E5648

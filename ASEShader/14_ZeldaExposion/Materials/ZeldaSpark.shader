@@ -157,7 +157,7 @@ Shader "ASEShader/14_ZeldaSpark"
 			#pragma multi_compile_instancing
 			#define _ALPHAPREMULTIPLY_ON 1
 			#define _ALPHATEST_ON 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -408,7 +408,7 @@ Shader "ASEShader/14_ZeldaSpark"
 			#pragma multi_compile_instancing
 			#define _ALPHAPREMULTIPLY_ON 1
 			#define _ALPHATEST_ON 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -674,7 +674,7 @@ Shader "ASEShader/14_ZeldaSpark"
 			#pragma multi_compile_instancing
 			#define _ALPHAPREMULTIPLY_ON 1
 			#define _ALPHATEST_ON 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -897,9 +897,9 @@ Shader "ASEShader/14_ZeldaSpark"
 }
 /*ASEBEGIN
 Version=18935
-871;73;1048;771;1690.272;579.1407;2.052113;True;False
+881;81;1030;295;1671.803;90.73779;2.052113;True;False
 Node;AmplifyShaderEditor.VertexColorNode;7;-494.2138,-266.493;Inherit;False;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.SamplerNode;5;-818.5986,-79.29235;Inherit;True;Property;_Texture;Texture;0;0;Create;True;0;0;0;False;0;False;-1;None;0000000000000000f000000000000000;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.SamplerNode;5;-818.5986,-79.29235;Inherit;True;Property;_Texture;Texture;0;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;10;-261.2236,76.99358;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;11;-264.5027,265.8014;Inherit;False;Constant;_AlphaClip;AlphaClip;1;0;Create;True;0;0;0;False;0;False;0;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;8;-212.3617,-99.18319;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
@@ -921,4 +921,4 @@ WireConnection;1;2;8;0
 WireConnection;1;3;10;0
 WireConnection;1;4;11;0
 ASEEND*/
-//CHKSM=221E6DBDC204DA003A5EFD0746949F5C6CF180E6
+//CHKSM=D61688AF2E8E9B684E78C629F05FC084CEEE78DF

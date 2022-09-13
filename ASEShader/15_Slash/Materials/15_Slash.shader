@@ -156,7 +156,7 @@ Shader "ASEShader/15_Slash"
 			#pragma multi_compile_instancing
 			#define _ALPHAPREMULTIPLY_ON 1
 			#define _RECEIVE_SHADOWS_OFF 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -405,7 +405,7 @@ Shader "ASEShader/15_Slash"
 			#pragma multi_compile_instancing
 			#define _ALPHAPREMULTIPLY_ON 1
 			#define _RECEIVE_SHADOWS_OFF 1
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -627,7 +627,7 @@ Shader "ASEShader/15_Slash"
 }
 /*ASEBEGIN
 Version=18935
-0;73;1920;920;2637.442;799.5302;1.716076;True;False
+881;81;1030;295;1873.788;263.2565;1.716076;True;False
 Node;AmplifyShaderEditor.TextureCoordinatesNode;27;-2217.688,-272.3143;Inherit;False;0;-1;4;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.DynamicAppendNode;28;-1983.687,-199.5143;Inherit;False;FLOAT2;4;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.TextureCoordinatesNode;29;-1812.288,-110.0465;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
@@ -658,4 +658,4 @@ WireConnection;36;2;31;4
 WireConnection;1;2;38;0
 WireConnection;1;3;33;0
 ASEEND*/
-//CHKSM=2D0941C6CBEBF9F2AC278F7713F547DD0B330F2B
+//CHKSM=5A97ABF64518D633635D92056D81866561A78133

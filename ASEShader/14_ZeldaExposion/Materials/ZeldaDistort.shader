@@ -155,7 +155,7 @@ Shader "ASEShader/14_ZeldaDistort"
 			HLSLPROGRAM
 			
 			#pragma multi_compile_instancing
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 			#define REQUIRE_OPAQUE_TEXTURE 1
 			#define REQUIRE_DEPTH_TEXTURE 1
 
@@ -424,7 +424,7 @@ Shader "ASEShader/14_ZeldaDistort"
 			HLSLPROGRAM
 			
 			#pragma multi_compile_instancing
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -676,7 +676,7 @@ Shader "ASEShader/14_ZeldaDistort"
 			HLSLPROGRAM
 			
 			#pragma multi_compile_instancing
-			#define ASE_SRP_VERSION 100400
+			#define ASE_SRP_VERSION 100501
 
 			
 			#pragma vertex vert
@@ -887,7 +887,7 @@ Shader "ASEShader/14_ZeldaDistort"
 }
 /*ASEBEGIN
 Version=18935
-871;73;1048;771;1184.244;562.9847;1.809495;True;False
+881;81;1030;295;1167.959;132.3249;1.809495;True;False
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;9;73.19531,-4.292053;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
 Node;AmplifyShaderEditor.ScreenColorNode;8;-189.484,-3.17983;Inherit;False;Global;_GrabScreen0;Grab Screen 0;2;0;Create;True;0;0;0;False;0;False;Object;-1;False;False;False;False;2;0;FLOAT2;0,0;False;1;FLOAT;0;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.VertexColorNode;10;-185.9299,192.3349;Inherit;False;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
@@ -911,4 +911,4 @@ WireConnection;12;0;5;0
 WireConnection;1;2;9;0
 WireConnection;1;3;10;4
 ASEEND*/
-//CHKSM=E4594B6DC104D770348AD712FF05F9AF091D10C7
+//CHKSM=9C865700BA9FD8E228C0315911D0D4FE983B289B

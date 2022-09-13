@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 5
+  version: 4
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
@@ -21,23 +21,20 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FloorChecker
-  m_Shader: {fileID: -6465566751694194690, guid: c97f9ff43929098469ca69f9c5549364, type: 3}
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_231bed28082f49b797e4952bce11c090:
-        m_Texture: {fileID: 2800000, guid: ca63c96c2ca78b6469fed17f727e3a16, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: a6072d9ca50c9d049aee261f6d9d44f4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 22c04c2a897fa6c46a0f623c58edcc8e, type: 3}
         m_Scale: {x: 30, y: 30}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -61,7 +58,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: a6072d9ca50c9d049aee261f6d9d44f4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 22c04c2a897fa6c46a0f623c58edcc8e, type: 3}
         m_Scale: {x: 30, y: 30}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -93,9 +90,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_250256f3b2a44d2b989693dfd9e627cd: 8
-    - Vector1_2f9fa218f54e48ac8825783cec189a36: 1
-    - Vector1_95b8d6007e674b73a7917224585a0c9e: 1.7
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -113,8 +107,7 @@ Material:
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _QueueControl: 0
-    - _QueueOffset: -1
+    - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.12
     - _SmoothnessTextureChannel: 0
@@ -123,7 +116,6 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - __dirty: 0
     m_Colors:
     - _BaseColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
