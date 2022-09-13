@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 13_Melting
   m_Shader: {fileID: 4800000, guid: 89ad3e94f0a999c42ba3642f411d8041, type: 3}
-  m_ShaderKeywords: _ADD_PRECOMPUTED_VELOCITY _ALPHATEST_ON _ANIMATEDMELT_ON _TOGGLEANIMATEDFX_ON
+  m_ShaderKeywords: _ADD_PRECOMPUTED_VELOCITY _ALPHATEST_ON _TOGGLEANIMATEDFX_ON
     _TOGGLECONTROLTYPE_ON
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -58,7 +58,7 @@ Material:
     - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
-    - _AnimatedMelt: 1
+    - _AnimatedMelt: 0
     - _BlendMode: 0
     - _CullMode: 2
     - _CullModeForward: 2
@@ -73,12 +73,12 @@ Material:
     - _Float0: 2
     - _Float1: 1.92
     - _Intensity: 8
-    - _Limit: 0.798
-    - _ManualControl: 1.2
-    - _Metallic: 0.98
-    - _NoiseMultiply: 3.35
-    - _NoiseScale: 0.0367
-    - _Oscillation: 2.3723528
+    - _Limit: 0
+    - _ManualControl: 2
+    - _Metallic: 1
+    - _NoiseMultiply: 2.81
+    - _NoiseScale: 0.0326
+    - _Oscillation: 3.61
     - _ReceivesSSR: 1
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
@@ -111,8 +111,8 @@ Material:
     m_Colors:
     - <noninit>: {r: 0, g: 1.7256007e-33, b: 0, a: 1.725589e-33}
     - _BaseColor: {r: 0.21698111, g: 0.19139372, b: 0.18115875, a: 0}
-    - _Color1: {r: 0.16037738, g: 0.0032750438, b: 0, a: 1}
-    - _Color2: {r: 0.85882354, g: 0.3900077, b: 0, a: 1}
+    - _Color1: {r: 0.16037738, g: 0.0015542766, b: 0, a: 1}
+    - _Color2: {r: 2.270603, g: 0.5230708, b: 0, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

@@ -54,12 +54,12 @@ Material:
     m_Floats:
     - _AlphaCutoff: 0.5
     - _CausticsPower: 1
-    - _CausticsScale: 14.6
-    - _Depth: 0.557
+    - _CausticsScale: 12.14
+    - _Depth: 0.804
     - _Displace: 0.4
-    - _Distort: 0.2
+    - _Distort: 1
     - _Distort1: 0.057
-    - _EdgePower: 0.289
+    - _EdgePower: 0.213
     - _Float0: 10.51
     - _Float3: 12.93
     - _Float5: 0
@@ -83,11 +83,11 @@ Material:
     - _TessPhongStrength: 0.5
     - _TessValue: 32
     - _Tiling: 0.2
-    - _WaveHeight: 0.439
+    - _WaveHeight: 0.47
     - _WaveSpeed: 0.3
     m_Colors:
-    - _CausticsColour: {r: 1.2072729, g: 1.7411011, b: 1.6202828, a: 0}
+    - _CausticsColour: {r: 0.67122304, g: 1.3815465, b: 1.2223359, a: 0}
     - _Color0: {r: 0, g: 0.32701188, b: 0.4056604, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SeaColor: {r: 0, g: 0.37099907, b: 0.4039215, a: 1}
+    - _SeaColor: {r: 0, g: 0.3254902, b: 0.40392157, a: 1}
   m_BuildTextureStacks: []
