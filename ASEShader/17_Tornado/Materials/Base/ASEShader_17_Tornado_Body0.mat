@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ASEShader_17_Tornado_Body0
+  m_Shader: {fileID: 4800000, guid: 980e6785d5bd23c43815570783bc9d7d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _Dissolve: 0.687
+    - _NoisePower: 1
+    - _NoiseScale: 20
+    - _ShaderStrength: 5
+    - _ShakeAmount: 0.126
+    - _ShakeIntensity: 5
+    - _ShakeSpeed: 10
+    - _ShakeStrength: 5
+    - _ShearAmount: 5
+    - _ShearScale: 20
+    - _ShearSpeed: 1
+    - _ShearStrength: 10
+    - _TessMax: 25
+    - _TessMin: 10
+    - _TessPhongStrength: 1
+    - _TessValue: 3.94
+    - _TwirlAmount: 8
+    - _TwirlSpeed: 0.22
+    m_Colors:
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShearSpeed: {r: -1, g: 0.5, b: 0, a: 0}
+    - _Tint: {r: 5.2164755, g: 0.9012759, b: 0.21849112, a: 1}
+    - _TwirlCenter: {r: 0.5, g: -0.5, b: 0, a: 0}
+    - _TwirlSpeed: {r: -1, g: -0.49, b: 0, a: 0}
+  m_BuildTextureStacks: []
