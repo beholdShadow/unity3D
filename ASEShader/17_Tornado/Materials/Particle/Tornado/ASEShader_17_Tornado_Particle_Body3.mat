@@ -21,7 +21,7 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _Dissolve: 0.915
+    - _Dissolve: 0.876
     - _EnableOffset: 0
     - _FinalYOffset: 0
     - _FinalYPos: 0
