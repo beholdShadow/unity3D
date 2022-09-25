@@ -46,5 +46,5 @@ Material:
     - _JitterStrength: 0.08
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Tint: {r: 14.754423, g: 0.6952346, b: 0, a: 0}
+    - _Tint: {r: 14.216002, g: 1.9351627, b: 0, a: 0}
   m_BuildTextureStacks: []

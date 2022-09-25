@@ -31,5 +31,5 @@ Material:
     - _AlphaCutoff: 0.5
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Tint: {r: 51.377876, g: 9.145801, b: 2.420947, a: 1}
+    - _Tint: {r: 191.74902, g: 34.133335, b: 9.035295, a: 1}
   m_BuildTextureStacks: []

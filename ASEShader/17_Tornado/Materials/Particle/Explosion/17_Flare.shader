@@ -888,7 +888,7 @@ Shader "ASEShader/17_Flare"
 }
 /*ASEBEGIN
 Version=18935
-1057;73;862;270;827.5299;46.08591;1;False;False
+994;73;925;270;827.5299;46.08591;1;False;False
 Node;AmplifyShaderEditor.VertexColorNode;5;-516.7042,-150.136;Inherit;False;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SamplerNode;7;-598.1746,222.5387;Inherit;True;Property;_Texture;Texture;0;0;Create;True;0;0;0;False;0;False;-1;None;6ca1ea0a01990dd43bead1cafe69a2c9;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;9;-193.5372,246.2031;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
@@ -906,4 +906,4 @@ WireConnection;8;1;5;0
 WireConnection;1;2;8;0
 WireConnection;1;3;9;0
 ASEEND*/
-//CHKSM=0D3E9DD9E115846286276CC536B1A1A8FD8E3C4E
+//CHKSM=C5F9F8C2ADB5EEDB21112081DE954DB550ED7E78

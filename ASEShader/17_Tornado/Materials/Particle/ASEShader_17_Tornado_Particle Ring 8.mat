@@ -21,7 +21,7 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _Dissolve: 0.88
+    - _Dissolve: 0.905
     - _FinalYPos: 0
     - _NoisePower: 1
     - _ShakeAmount: 0.03

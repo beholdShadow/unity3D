@@ -21,7 +21,7 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _Dissolve: 0.787
+    - _Dissolve: 0.81
     - _EnableOffset: 0
     - _FinalYOffset: 0
     - _FinalYPos: 0
@@ -31,13 +31,13 @@ Material:
     - _ShakeSpeed: 10
     - _ShakeStrength: 5
     - _ShearAmount: 5
-    - _ShearScale: 30
+    - _ShearScale: 20
     - _ToggleSwitch0: 0
-    - _TwirlAmount: 10
+    - _TwirlAmount: 8
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShearSpeed: {r: -1, g: -0.5, b: 0, a: 0}
-    - _Tint: {r: 27.53272, g: 6.198466, b: 3.0271578, a: 1}
+    - _Tint: {r: 47.937256, g: 10.541177, b: 5.019608, a: 1}
     - _TwirlCenter: {r: 0.5, g: -0.5, b: 0, a: 0}
     - _TwirlSpeed: {r: -1, g: -0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
