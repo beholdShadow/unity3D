@@ -37,7 +37,7 @@ Material:
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShearSpeed: {r: -1, g: 0.5, b: 0, a: 0}
-    - _Tint: {r: 440.52353, g: 99.17545, b: 46.128117, a: 1}
+    - _Tint: {r: 95.87451, g: 21.840748, b: 13.552939, a: 1}
     - _TwirlCenter: {r: 0.5, g: -0.5, b: 0, a: 0}
     - _TwirlSpeed: {r: -1, g: -0.5, b: 0, a: 0}
   m_BuildTextureStacks: []

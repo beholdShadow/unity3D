@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ASEShader_12_ShiledEffect
+  m_Shader: {fileID: 4800000, guid: 7a270ea776158ee439cbcc8772864854, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9ce09ab9309e4d24b88156fae77f48d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShiledUV_Mask:
+        m_Texture: {fileID: 2800000, guid: 90a9ba0c99ed3834e85c766716c28831, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _FresnelPower: 0.521
+    - _FresnelSize: 2.23
+    - _NoiseScale: 1
+    - _ShakeAmount: 1
+    - _ShakeStrength: 0.903
+    - _ShakeStrength1: 0.466
+    - _ShakeStrength2: 0.252
+    - _Speed: 0.301
+    m_Colors:
+    - _BackColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelTint: {r: 166.92725, g: 21.849115, b: 0, a: 1}
+    - _FrontColor: {r: 0, g: 20.542416, b: 36.329643, a: 1}
+  m_BuildTextureStacks: []
