@@ -5,6 +5,7 @@ ShaderImporter:
   defaultTextures:
   - _ShiledUV_Mask: {fileID: 2800000, guid: 90a9ba0c99ed3834e85c766716c28831, type: 3}
   - _MainTex: {fileID: 2800000, guid: 9ce09ab9309e4d24b88156fae77f48d6, type: 3}
+  - _ShieldPatternWaves: {fileID: 2800000, guid: 0c0eef1df8850cd4099ee4ca7ae51861, type: 3}
   nonModifiableTextures: []
   preprocessorOverride: 0
   userData: 

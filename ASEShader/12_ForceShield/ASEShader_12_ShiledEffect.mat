@@ -23,6 +23,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 9ce09ab9309e4d24b88156fae77f48d6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ShieldPatternWaves:
+        m_Texture: {fileID: 2800000, guid: 0c0eef1df8850cd4099ee4ca7ae51861, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ShiledUV_Mask:
         m_Texture: {fileID: 2800000, guid: 90a9ba0c99ed3834e85c766716c28831, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -33,17 +37,26 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _FresnelPower: 0.521
-    - _FresnelSize: 2.23
+    - _FresnelPower: 1
+    - _FresnelSize: 0.66
+    - _IntersectIntensity: 0.862
     - _NoiseScale: 1
     - _ShakeAmount: 1
     - _ShakeStrength: 0.903
-    - _ShakeStrength1: 0.466
-    - _ShakeStrength2: 0.252
+    - _ShakeStrength1: 0.92
+    - _ShakeStrength2: 0.58
+    - _ShieldAnimSpeed: -4.86
     - _Speed: 0.301
+    - _WaveAmount: 1
+    - _WaveSpeed: 2.43
+    - _YPos: 2.5
     m_Colors:
-    - _BackColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BackColor: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
+    - _Color0: {r: 11.31371, g: 2.395844, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FresnelTint: {r: 166.92725, g: 21.849115, b: 0, a: 1}
-    - _FrontColor: {r: 0, g: 20.542416, b: 36.329643, a: 1}
+    - _FresnelTint: {r: 110.13088, g: 14.415036, b: 0, a: 1}
+    - _FrontColor: {r: 0, g: 1.8148408, b: 5.5908804, a: 0.6666667}
+    - _IntersectTint: {r: 0, g: 1.7328053, b: 2.433572, a: 1}
+    - _WaveTint: {r: 9.734288, g: 1.427016, b: 0, a: 0}
+    - _WaveTliing: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
