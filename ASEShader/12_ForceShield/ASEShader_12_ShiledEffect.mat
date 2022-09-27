@@ -37,26 +37,36 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _FresnelPower: 1
-    - _FresnelSize: 0.66
+    - _DissloveStrength: 1.38
+    - _DissolveYHeight: 2.5
+    - _DissolveYPos: 2.5
+    - _Float0: 2
+    - _FresnelPower: 0.886
+    - _FresnelSize: 2.57
     - _IntersectIntensity: 0.862
     - _NoiseScale: 1
     - _ShakeAmount: 1
-    - _ShakeStrength: 0.903
-    - _ShakeStrength1: 0.92
-    - _ShakeStrength2: 0.58
+    - _ShakeStrength: 1.815
+    - _ShakeStrength1: 2.235
+    - _ShakeStrength2: 2.461
     - _ShieldAnimSpeed: -4.86
     - _Speed: 0.301
+    - _TessMax: 25
+    - _TessMin: 10
+    - _TessPhongStrength: 1
+    - _TessValue: 10
+    - _VertexAmount: 2.74
     - _WaveAmount: 1
     - _WaveSpeed: 2.43
     - _YPos: 2.5
+    - _YPos1: 0.75
     m_Colors:
-    - _BackColor: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
+    - _BackColor: {r: 0.7294118, g: 0.17342873, b: 0.05882352, a: 1}
     - _Color0: {r: 11.31371, g: 2.395844, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FresnelTint: {r: 110.13088, g: 14.415036, b: 0, a: 1}
-    - _FrontColor: {r: 0, g: 1.8148408, b: 5.5908804, a: 0.6666667}
+    - _FresnelTint: {r: 119.42827, g: 29.314579, b: 0, a: 1}
+    - _FrontColor: {r: 1.1353015, g: 0.20838809, b: 0.10699176, a: 1}
     - _IntersectTint: {r: 0, g: 1.7328053, b: 2.433572, a: 1}
-    - _WaveTint: {r: 9.734288, g: 1.427016, b: 0, a: 0}
+    - _WaveTint: {r: 41.73181, g: 5.899261, b: 0, a: 0}
     - _WaveTliing: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []

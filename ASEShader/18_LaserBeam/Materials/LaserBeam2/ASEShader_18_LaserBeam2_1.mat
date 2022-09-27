@@ -38,8 +38,8 @@ Material:
     - _DistortScale: 50
     - _MainScale: 0.46
     m_Colors:
-    - _DistorSpeed: {r: -1, g: 0, b: 0, a: 0}
+    - _DistorSpeed: {r: -2, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _MainSpeed: {r: -2, g: 0, b: 0, a: 0}
+    - _MainSpeed: {r: -4, g: 0, b: 0, a: 0}
     - _Tint: {r: 0.13655695, g: 1.0924556, b: 2.6082377, a: 1}
   m_BuildTextureStacks: []
