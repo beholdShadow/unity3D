@@ -34,7 +34,7 @@ Material:
     m_Floats:
     - _AlphaCutoff: 0.5
     - _Dissolve: 0
-    - _DissovleAmount: 0.112
+    - _DissovleAmount: 0
     - _MainSpeed: 0
     - _NoiseAmount: 0.12
     - _NoisePower: 0.27
@@ -44,5 +44,5 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _NoiseSpeed: {r: 0.5, g: 0.2, b: 0, a: 0}
     - _Tilling: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 59.017693, g: 59.017693, b: 59.017693, a: 1}
+    - _Tint: {r: 38.937145, g: 38.937145, b: 38.937145, a: 1}
   m_BuildTextureStacks: []

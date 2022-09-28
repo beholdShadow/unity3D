@@ -64,7 +64,7 @@ Material:
     - _BackColor: {r: 0.7294118, g: 0.17342873, b: 0.05882352, a: 1}
     - _Color0: {r: 11.31371, g: 2.395844, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FresnelTint: {r: 119.42827, g: 29.314579, b: 0, a: 1}
+    - _FresnelTint: {r: 151.92511, g: 25.487995, b: 0, a: 1}
     - _FrontColor: {r: 1.1353015, g: 0.20838809, b: 0.10699176, a: 1}
     - _IntersectTint: {r: 0, g: 1.7328053, b: 2.433572, a: 1}
     - _WaveTint: {r: 41.73181, g: 5.899261, b: 0, a: 0}

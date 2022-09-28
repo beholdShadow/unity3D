@@ -38,6 +38,6 @@ Material:
     - _ToggleSwitch1: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color0: {r: 4.867144, g: 4.867144, b: 4.867144, a: 0}
+    - _Color0: {r: 55.06544, g: 55.06544, b: 55.06544, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
