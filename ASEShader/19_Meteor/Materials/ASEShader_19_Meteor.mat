@@ -42,7 +42,7 @@ Material:
     - _VoronoiScale: 22.6
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissiveTint: {r: 45.25485, g: 6.290418, b: 0, a: 1}
+    - _EmissiveTint: {r: 135.58704, g: 19.166754, b: 0, a: 1}
     - _NoiseSpeed: {r: -0.1, g: 0.1, b: 0, a: 0}
     - _Tint: {r: 1, g: 1, b: 1, a: 1}
     - _VoronoiSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}

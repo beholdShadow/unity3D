@@ -895,7 +895,7 @@ Shader "ASEShader/19_Smoke"
 }
 /*ASEBEGIN
 Version=18935
-1090;73;829;412;390.2527;174.4176;1;True;False
+985;73;934;797;463.2527;202.9176;1;True;False
 Node;AmplifyShaderEditor.SamplerNode;5;-623.379,-7.923542;Inherit;True;Property;_Texture;Texture;0;0;Create;True;0;0;0;False;0;False;-1;a8bbfe94f2287944d8cd53ab2421ae88;a8bbfe94f2287944d8cd53ab2421ae88;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.ColorNode;8;-544.7487,-195.1385;Inherit;False;Property;_Tint;Tint;1;1;[HDR];Create;True;0;0;0;False;0;False;1.945098,1.945098,1.945098,1;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.VertexColorNode;11;-527.5143,195.8203;Inherit;False;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
@@ -917,4 +917,4 @@ WireConnection;16;0;12;0
 WireConnection;1;2;7;0
 WireConnection;1;3;16;0
 ASEEND*/
-//CHKSM=1566D14897FA208EDDBDA4C97E67A5D92F7C869B
+//CHKSM=57F9811F25F2B7DC30B7B604FB27E5ED14AF4632
