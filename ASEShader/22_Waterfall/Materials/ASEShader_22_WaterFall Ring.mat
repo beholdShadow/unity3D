@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ASEShader_22_WaterFall
+  m_Name: ASEShader_22_WaterFall Ring
   m_Shader: {fileID: 4800000, guid: 3bfdacd3601657441beedc4f9227ab14, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -37,41 +37,41 @@ Material:
     - _AODissolve: 2
     - _AOPower: 2
     - _AOStrength: 0.177
-    - _Agitation: 2.99
-    - _AlbedoIntensity: 1
+    - _Agitation: 5
+    - _AlbedoIntensity: 2
     - _AlbedoNoiseAmount: 1
     - _AlphaCutoff: 0.5
     - _JitterFrequency: 0.2
     - _JitterSpeed: 2
-    - _JitterStrength: 0.096
+    - _JitterStrength: 0
     - _Metallic: 0.482
     - _NormalNoiseDissolve: 2
     - _NormalStrength: 0.12
     - _NormalsNoiseDissolve: 2
     - _NormalsNoiseScale: 8
-    - _Power: 4.22
+    - _Power: 4.26
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Scale: 7.097
+    - _Scale: 11.88
     - _Smoothness: 1.4
     - _TessValue: 4
     - _Transparency: 0.624
     - _TransparencyAmount: 0
     - _TransparencyMask: 0
-    - _VoronoiAgitation: 1
-    - _VoronoiDistortionAmount: 0.0681
-    - _VoronoiDistortionScale: 9.95
-    - _VoronoiPower: 4.6
-    - _VoronoiScale: 10.43
+    - _VoronoiAgitation: 2
+    - _VoronoiDistortionAmount: 0
+    - _VoronoiDistortionScale: 11.5
+    - _VoronoiPower: 5
+    - _VoronoiScale: 12
     m_Colors:
     - _Albedo: {r: 0.21568628, g: 0.7490196, b: 0.09019608, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _NormalNoiseTilling: {r: 1, g: 0.9, b: 0, a: 0}
     - _NormalSpeed: {r: 0, g: -0.75, b: 0, a: 0}
-    - _Speed: {r: 0, g: 0, b: 0, a: 0}
+    - _Speed: {r: 0, g: -0.4, b: 0, a: 0}
     - _Tilling: {r: 1.2, g: 0.6, b: 0, a: 0}
     - _Tint: {r: 2.3698976, g: 5.992157, b: 0.41945094, a: 1}
     - _VoronoiRemap: {r: 0.05, g: 1, b: 0, a: 0}
-    - _VoronoiSpeed: {r: 0, g: -0.6, b: 0, a: 0}
-    - _VoronoiTilling: {r: 1.23, g: 0.55, b: 0, a: 0}
+    - _VoronoiSpeed: {r: 0, g: -0.4, b: 0, a: 0}
+    - _VoronoiTilling: {r: 1, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []

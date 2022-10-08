@@ -15,19 +15,22 @@ MonoBehaviour:
   version: 5
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ToxicWaterfallShader01
   m_Shader: {fileID: -6465566751694194690, guid: 7b4b49e5b2925ea43b93d854c1b3be48, type: 3}
-  m_ShaderKeywords: _SURFACE_TYPE_TRANSPARENT
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -44,9 +47,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _AmbientOcclusion: 0.177
+    - _AmbientOcclusion: 0.212
     - _AmbientOcclusionNoisePower: 2
     - _BaseNoiseAmount: 0.15
     - _Blend: 0
@@ -65,7 +69,7 @@ Material:
     - _Soft_Particle: 2
     - _SrcBlend: 5
     - _Surface: 1
-    - _Transparency: 0.6
+    - _Transparency: 1
     - _TransparencyBaseAmount: 1
     - _TransperencyMaskAmount: 0
     - _VoronoiAgitation: 1
@@ -88,7 +92,7 @@ Material:
     - _Color: {r: 0.2217439, g: 0.95699996, b: 0.14004876, a: 1}
     - _NormalsNoiseSpeed: {r: 0, g: -0.75, b: 0, a: 0}
     - _NormalsNoiseTiling: {r: 1, g: 0.9, b: 0, a: 0}
-    - _VoronoiColor: {r: 10.356274, g: 25.688938, b: 1.8829588, a: 1}
+    - _VoronoiColor: {r: 2.102977, g: 5.2164755, b: 0.38235945, a: 1}
     - _VoronoiRemap: {r: 0.05, g: 1, b: 0, a: 0}
     - _VoronoiSpeed: {r: 0, g: -0.66, b: 0, a: 0}
     - _VoronoiTiling: {r: 1.2, g: 0.6, b: 0, a: 0}
