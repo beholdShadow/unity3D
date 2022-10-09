@@ -14,7 +14,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3002
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -36,42 +36,42 @@ Material:
     m_Floats:
     - _AODissolve: 2
     - _AOPower: 2
-    - _AOStrength: 0.177
+    - _AOStrength: 0.221
     - _Agitation: 2.99
     - _AlbedoIntensity: 1
-    - _AlbedoNoiseAmount: 1
+    - _AlbedoNoiseAmount: 0
     - _AlphaCutoff: 0.5
     - _JitterFrequency: 0.2
     - _JitterSpeed: 2
     - _JitterStrength: 0.096
-    - _Metallic: 0.482
+    - _Metallic: 0.232
     - _NormalNoiseDissolve: 2
-    - _NormalStrength: 0.12
+    - _NormalStrength: 2.9
     - _NormalsNoiseDissolve: 2
     - _NormalsNoiseScale: 8
     - _Power: 4.22
-    - _QueueControl: 0
+    - _QueueControl: 1
     - _QueueOffset: 0
     - _Scale: 7.097
-    - _Smoothness: 1.4
+    - _Smoothness: 1.35
     - _TessValue: 4
-    - _Transparency: 0.624
-    - _TransparencyAmount: 0
+    - _Transparency: 0.6
+    - _TransparencyAmount: 1
     - _TransparencyMask: 0
-    - _VoronoiAgitation: 1
+    - _VoronoiAgitation: 5
     - _VoronoiDistortionAmount: 0.0681
     - _VoronoiDistortionScale: 9.95
-    - _VoronoiPower: 4.6
-    - _VoronoiScale: 10.43
+    - _VoronoiPower: 5
+    - _VoronoiScale: 10
     m_Colors:
-    - _Albedo: {r: 0.21568628, g: 0.7490196, b: 0.09019608, a: 1}
+    - _Albedo: {r: 0.11764702, g: 0.89040107, b: 0.9882353, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _NormalNoiseTilling: {r: 1, g: 0.9, b: 0, a: 0}
     - _NormalSpeed: {r: 0, g: -0.75, b: 0, a: 0}
     - _Speed: {r: 0, g: 0, b: 0, a: 0}
     - _Tilling: {r: 1.2, g: 0.6, b: 0, a: 0}
-    - _Tint: {r: 2.3698976, g: 5.992157, b: 0.41945094, a: 1}
+    - _Tint: {r: 0.43921548, g: 1.6487793, b: 5.992157, a: 1}
     - _VoronoiRemap: {r: 0.05, g: 1, b: 0, a: 0}
     - _VoronoiSpeed: {r: 0, g: -0.6, b: 0, a: 0}
-    - _VoronoiTilling: {r: 1.23, g: 0.55, b: 0, a: 0}
+    - _VoronoiTilling: {r: 1.2, g: 0.6, b: 0, a: 0}
   m_BuildTextureStacks: []

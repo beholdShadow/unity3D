@@ -14,7 +14,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3001
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -36,42 +36,42 @@ Material:
     m_Floats:
     - _AODissolve: 2
     - _AOPower: 2
-    - _AOStrength: 0.177
+    - _AOStrength: 0.45
     - _Agitation: 5
     - _AlbedoIntensity: 2
-    - _AlbedoNoiseAmount: 1
+    - _AlbedoNoiseAmount: 0
     - _AlphaCutoff: 0.5
-    - _JitterFrequency: 0.2
+    - _JitterFrequency: 2
     - _JitterSpeed: 2
-    - _JitterStrength: 0
-    - _Metallic: 0.482
+    - _JitterStrength: 0.02
+    - _Metallic: 0.39
     - _NormalNoiseDissolve: 2
-    - _NormalStrength: 0.12
+    - _NormalStrength: 3.91
     - _NormalsNoiseDissolve: 2
     - _NormalsNoiseScale: 8
     - _Power: 4.26
-    - _QueueControl: 0
+    - _QueueControl: 1
     - _QueueOffset: 0
     - _Scale: 11.88
-    - _Smoothness: 1.4
-    - _TessValue: 4
-    - _Transparency: 0.624
-    - _TransparencyAmount: 0
-    - _TransparencyMask: 0
-    - _VoronoiAgitation: 2
-    - _VoronoiDistortionAmount: 0
-    - _VoronoiDistortionScale: 11.5
-    - _VoronoiPower: 5
-    - _VoronoiScale: 12
+    - _Smoothness: 1.45
+    - _TessValue: 1
+    - _Transparency: 0.8
+    - _TransparencyAmount: 1
+    - _TransparencyMask: 2.1
+    - _VoronoiAgitation: 1
+    - _VoronoiDistortionAmount: 0.02
+    - _VoronoiDistortionScale: 10
+    - _VoronoiPower: 9
+    - _VoronoiScale: 13
     m_Colors:
-    - _Albedo: {r: 0.21568628, g: 0.7490196, b: 0.09019608, a: 1}
+    - _Albedo: {r: 0.09019608, g: 0.6768724, b: 0.7490196, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _NormalNoiseTilling: {r: 1, g: 0.9, b: 0, a: 0}
-    - _NormalSpeed: {r: 0, g: -0.75, b: 0, a: 0}
+    - _NormalSpeed: {r: 0, g: 0.5, b: 0, a: 0}
     - _Speed: {r: 0, g: -0.4, b: 0, a: 0}
     - _Tilling: {r: 1.2, g: 0.6, b: 0, a: 0}
-    - _Tint: {r: 2.3698976, g: 5.992157, b: 0.41945094, a: 1}
-    - _VoronoiRemap: {r: 0.05, g: 1, b: 0, a: 0}
-    - _VoronoiSpeed: {r: 0, g: -0.4, b: 0, a: 0}
-    - _VoronoiTilling: {r: 1, g: 0.5, b: 0, a: 0}
+    - _Tint: {r: 0.43921548, g: 2.4760203, b: 5.992157, a: 1}
+    - _VoronoiRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _VoronoiSpeed: {r: 0, g: 0.5, b: 0, a: 0}
+    - _VoronoiTilling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
