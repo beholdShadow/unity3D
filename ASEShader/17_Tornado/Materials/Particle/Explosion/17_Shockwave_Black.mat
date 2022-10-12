@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 17_Shockwave_Black
-  m_Shader: {fileID: 4800000, guid: 90b2ad32bb812dd4d9e3f3b7b4205b9c, type: 3}
+  m_Shader: {fileID: 4800000, guid: 7bc7d1097cf9e444f924ae1858420b39, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _ENABLEOFFSET_ON

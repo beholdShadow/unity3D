@@ -35,5 +35,5 @@ Material:
     - _Strength: 0
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Tint: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 1}
+    - _Tint: {r: 8.029549, g: 2.8403845, b: 0.81934166, a: 1}
   m_BuildTextureStacks: []
