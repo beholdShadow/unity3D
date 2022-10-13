@@ -14,7 +14,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3001
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -51,19 +51,20 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _DissolveAmount: 2.32
+    - _DissolveAmount: 0.89
     - _DissolveSpeed: 0
-    - _DistortAmount: 0.04
+    - _DistortAmount: 0.02
     - _MainSpeed: 0
-    - _QueueControl: 0
+    - _QueueControl: 1
     - _QueueOffset: 0
     m_Colors:
-    - _DissolveSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolveOffset: {r: 0, g: 0.24, b: 0, a: 0}
+    - _DissolveSpeed: {r: 0, g: -1, b: 0, a: 0}
     - _DissolveTilling: {r: 1, g: 1, b: 0, a: 0}
     - _DistortTilling: {r: 1, g: 1, b: 0, a: 0}
     - _DistortionSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _MainTilling: {r: 1, g: 1, b: 0, a: 0}
-    - _Tint: {r: 25.688938, g: 25.688938, b: 25.688938, a: 1}
+    - _Tint: {r: 39.396626, g: 39.396626, b: 39.396626, a: 1}
   m_BuildTextureStacks: []
