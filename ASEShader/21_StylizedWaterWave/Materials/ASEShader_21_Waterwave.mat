@@ -90,7 +90,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _Tint: {r: 0.008899963, g: 0.115122266, b: 0.3773585, a: 1}
+    - _Tint: {r: 0.048727296, g: 0.32239112, b: 0.6886792, a: 1}
     - _Tint1: {r: 0, g: 0.352, b: 1, a: 0}
     - _Tint2: {r: 0, g: 0.8256683, b: 1, a: 0}
     - _WaveSpeed: {r: -0.57, g: 0, b: 0, a: 0}
