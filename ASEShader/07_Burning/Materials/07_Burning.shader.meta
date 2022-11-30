@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cabc90e76c733a24ba761ad2e34cce72
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Albedo: {fileID: 2800000, guid: 8061e12ad85a6be4e9951881ee467c9e, type: 3}
+  - _MaskTex: {fileID: 2800000, guid: e649826446ed7974ea27a3d0986d372a, type: 3}
+  - _FlowMap: {fileID: 2800000, guid: dcaace8708d7cba42b7b5ca25d44992f, type: 3}
+  - _Normal: {fileID: 2800000, guid: 570561a867b7c23448a0beabdd6faac5, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

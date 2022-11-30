@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: f6b2bc5a0f5577b42bee2b8587020d63
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Parallax: {fileID: 2800000, guid: e0bd3b81b65a24c43a1bf532e877d79d, type: 3}
+  - _Albedo: {fileID: 2800000, guid: d7d18777efffa4d4694157b32fe5d2f8, type: 3}
+  - _Normal: {fileID: 2800000, guid: 6aff6813f9c7ca942be7249357ec44b5, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
